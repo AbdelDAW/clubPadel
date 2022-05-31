@@ -11,10 +11,10 @@ package clubpadel;
  */
 public class Persona {
     
-    String name;
-    String surname;
-    String dni;
-    int edad;
+    private String name;
+    private String surname;
+    private String dni;
+    private int edad;
 
     public Persona(String name, String surname, String dni, int edad) {
         this.name = name;
